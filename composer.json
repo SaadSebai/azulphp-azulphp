@@ -1,0 +1,20 @@
+{
+    "name": "azulphp/azulphp",
+    "require": {
+        "php": "^8.3",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "azulphp/framework": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saadsebai",
+            "email": "saadsebaii@gmail.com"
+        }
+    ]
+}
