@@ -1,5 +1,9 @@
 {
     "name": "azulphp/azulphp",
+    "description": "AzulPHP is a simple PHP framework.",
+    "type": "project",
+    "keywords": ["azul", "azulphp", "framework"],
+    "license": "MIT",
     "require": {
         "php": "^8.3",
         "ext-pdo": "*",
