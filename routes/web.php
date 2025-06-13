@@ -1,6 +1,6 @@
 <?php
 
-/** @var \Azulphp\Router $router */
+/** @var \Azulphp\Routing\Router $router */
 
 // --- Example: ---
 // $router->get('/', HomeController::class, 'index')->middleware(['auth']);
