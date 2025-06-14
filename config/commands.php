@@ -13,4 +13,5 @@ return [
     'make:repository' => \Azulphp\Commands\FileGenerate\Generators\RepositoryGenerator::class,
     'make:service' => \Azulphp\Commands\FileGenerate\Generators\ServiceGenerator::class,
     'make:model' => \Azulphp\Commands\FileGenerate\Generators\ModelGenerator::class,
+    'make:dto' => \Azulphp\Commands\FileGenerate\Generators\DtoGenerator::class,
 ];
