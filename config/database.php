@@ -1,8 +1,10 @@
 <?php
 
 return [
-    'host' => 'localhost',
-    'port' => 3306,
-    'dbname' => 'azul_db',
+    'host' => env('DB_HOST'),
+    'port' => env('DB_PORT'),
+    'dbname' => env('DB_DATABASE'),
+    'username' => env('DB_USERNAME'),
+    'password' => env('DB_PASSWORD'),
     'charset' => 'utf8mb4'
 ];

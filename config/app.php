@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'production' => false,
+    'production' => env('APP_ENV'),
 ];
